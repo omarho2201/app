@@ -1,0 +1,24 @@
+{% extends "layout.html"%}
+{% block body%}
+<div class="container">
+    <h1>Crea tu cuestionario</h1>
+    <form action= "" method="POST">
+        <div class="form-group2">
+            <input type="text" name="pregunta1" class="form-control" placeholder="pregunta 1" required>
+        </div>
+        <div class="form-group2">
+            <input type="text" name="pregunta2" class="form-control" placeholder="pregunta 2" required>
+        </div>
+        <div class="form-group2">
+            <input type="text" name="pregunta3" class="form-control" placeholder="pregunta 3" required>
+        </div>
+        <div class="form-group2">
+            <input type="text" name="pregunta4" class="form-control" placeholder="pregunta 4" required>
+        </div>
+        <div class="form-group2">
+            <input type="text" name="pregunta5" class="form-control" placeholder="pregunta 5" required>
+        </div>
+        <button class="btn btn-primary" type="submit">Crear</button>
+    </form>
+</div>
+{% endblock %}
